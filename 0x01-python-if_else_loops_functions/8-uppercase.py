@@ -11,5 +11,3 @@ def uppercase(str):
                 print(chr(ord(str[i]) - 32))
             else:
                 print(str[i])
-
-uppercase("holberTTON")
