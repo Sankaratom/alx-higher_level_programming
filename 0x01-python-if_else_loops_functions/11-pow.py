@@ -5,7 +5,7 @@ def pow(a, b):
         for i in range(1, b):
             powd *= a
         return powd
-    elif (b = 0):
+    elif (b == 0):
         return 1
     else:
         for i in range(1, -1 * b):
