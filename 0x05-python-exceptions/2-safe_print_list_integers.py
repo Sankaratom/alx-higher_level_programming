@@ -9,7 +9,7 @@ def safe_print_list_integers(my_list=[], x=0):
             var = my_list[i]
             print("{:d}".format(var), end="")
             count += 1
-        except ValueError:
+        except:
             pass
     print()
     return count
