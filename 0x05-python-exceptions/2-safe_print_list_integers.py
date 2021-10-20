@@ -4,9 +4,9 @@
 
 def safe_print_list_integers(my_list=[], x=0):
     count = 0
-    for i in range(0, x):
-        var = my_list[i]
+    for i in range(x):
         try:
+            var = my_list[i]
             print("{:d}".format(var), end="")
             count += 1
         except ValueError:
