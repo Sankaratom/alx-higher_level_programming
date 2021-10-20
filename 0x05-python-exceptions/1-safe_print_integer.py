@@ -10,3 +10,7 @@ def safe_print_integer(value):
         return False
     except ValueError:
         return False
+    except NameError:
+        return False
+    except OSError:
+        return False
