@@ -7,7 +7,7 @@ def safe_print_list_integers(my_list=[], x=0):
     for i in range(x):
         try:
             var = my_list[i]
-            print("{:d}".format(var), end="")
+            print('{:d}'.format(var), end='')
             count += 1
         except:
             pass
