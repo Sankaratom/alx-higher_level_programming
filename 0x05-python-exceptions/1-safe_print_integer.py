@@ -6,11 +6,5 @@ def safe_print_integer(value):
     try:
         print("{:d}".format(int(value)))
         return True
-    except TypeError:
-        return False
-    except ValueError:
-        return False
-    except NameError:
-        return False
-    except OSError:
+    except:
         return False
