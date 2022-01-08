@@ -1,4 +1,0 @@
-pip install pep8
-pip install --upgrade pep8
-pip uninstall pep8
-
